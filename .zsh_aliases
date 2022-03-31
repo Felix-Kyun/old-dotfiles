@@ -1,0 +1,7 @@
+
+alias clock="tty-clock -SsctBC6"
+alias config="/usr/bin/git --git-dir=$HOME/.bak/ --work-tree=$HOME"
+alias cs="config status"
+alias cadd="config add"
+alias cc="config commit -m"
+alias cup="config push -u origin main"
