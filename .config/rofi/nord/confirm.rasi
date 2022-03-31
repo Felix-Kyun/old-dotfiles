@@ -1,11 +1,11 @@
 /* Confirm Dialog */
 
-@import "colors.rasi"
+@import "nord.rasi"
 
 * {
     background-color:       @background;
     text-color:             @foreground;
-	font:				 	"Iosevka Nerd Font 12";
+	font:				 	"FiraCode Nerd Font 12";
 }
 
 window {
