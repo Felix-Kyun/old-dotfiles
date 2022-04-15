@@ -8,7 +8,8 @@
 
 # Print Greet 
 figlet -cf slant Felix_Kyun | lolcat
-
+#tput cup $(($LINES - 2)) 0
+#
 # enable p10k Instant Prompt
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"

@@ -2,7 +2,7 @@
 #                  / ____/__  / (_)  __     / //_/_  ____  ______
 #                 / /_  / _ \/ / / |/_/    / ,< / / / / / / / __ \
 #                / __/ /  __/ / />  <     / /| / /_/ / /_/ / / / /
-#               /_/    \___/_/_/_/|_|____/_/ |_\__, /\__,_/_/ /_/
+#               /_/    \___/_/_/_/|_|__alacritty__/_/ |_\__, /\__,_/_/ /_/
 #                                  /_____/    /____/
 #                               i3-WM Config File
 
@@ -30,6 +30,9 @@ bindsym $mod+BackSpace exec $power
 bindsym $mod+l exec $lock
 bindsym $mod+e reload
 bindsym $mod+Shift+e restart
+bindsym $mod+Shift+Return exec $launcher
+bindsym $mod+b exec $browser
+
 
 bindsym $mod+a focus left
 bindsym $mod+s focus down
@@ -56,8 +59,11 @@ bindsym $mod+h split h
 
 bindsym $mod+f fullscreen toggle
 
-bindsym $mod+Shift+space floating toggle
-bindsym $mod+space focus mode_toggle
+bindsym $mod+space floating toggle
+bindsym $mod+Shift+c focus mode_toggle
+
+bindsym $mod+comma workspace prev
+bindsym $mod+period workspace next
 
 set $ws1 "1"
 set $ws2 "2"
