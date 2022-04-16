@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "checking status..."
+/usr/bin/git --git-dir=$HOME/.bak/ --work-tree=$HOME status
+sleep 2
+
+echo "adding modified files..."
+/usr/bin/git --git-dir=$HOME/.bak/ --work-tree=$HOME add -u
+
+echo commiting with MSG="Daily Backup [$(date +%r) | $(date +'%d %B %Y')]"
+/usr/bin/git --git-dir=$HOME/.bak/ --work-tree=$HOME commit -m "Daily Backup [$(date +%r) | $(date +'%d %B %Y')]"
+
+echo "pushing to github..."
+/usr/bin/git --git-dir=$HOME/.bak/ --work-tree=$HOME push -u origin main
+echo "done backing up..."
