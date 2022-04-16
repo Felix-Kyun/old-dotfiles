@@ -1,10 +1,18 @@
 #!/bin/bash
 
+## TODO: add better log
+
 BAK_DIR=/sdcard/bak
 CONF_DIR=/home/felix/.config
 declare -a BAK_DIRS=(
 	"i3"
 	"alacritty"
+	"dunst"
+	"mpd"
+	"obsidian"
+	"picom"
+	"polybar"
+	"rofi"
 )
 ARR_LEN=${#BAK_DIRS[@]}
 
