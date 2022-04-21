@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # def variable
-BASE_DIR=/home/felix/
+BASE_DIR=/home/felix/Media/
 MUSIC_DIR=Music/
 CACHE_DIR=$BASE_DIR$MUSIC_DIR$2/.cache
 DOWNLOAD_BAK_FILE=$BASE_DIR$MUSIC_DIR.download.txt
