@@ -6,7 +6,7 @@ YELLOW=$(tput setaf 3)
 RESET=$(tput sgr0)
 
 sep() { 
-	echo -e "────────────────────────────────────────────\n"
+	echo -e "\n────────────────────────────────────────────\n"
 }
 
 echo "MAKING BACKUP ..."
