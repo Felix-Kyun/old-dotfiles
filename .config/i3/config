@@ -1,39 +1,50 @@
-#                   ______     ___           __ __
-#                  / ____/__  / (_)  __     / //_/_  ____  ______
-#                 / /_  / _ \/ / / |/_/    / ,< / / / / / / / __ \
-#                / __/ /  __/ / />  <     / /| / /_/ / /_/ / / / /
-#               /_/    \___/_/_/_/|_|__alacritty__/_/ |_\__, /\__,_/_/ /_/
-#                                  /_____/    /____/
-#                               i3-WM Config File
 
 
-# Variables
+
+
+# VARIABLES
 set $mod Mod4
-set $browser brave
-set $ss scrot
 set $launcher rofi -no-lazy-grab -show drun -modi drun -theme ~/.config/rofi/nord/style_7.rasi
+set $browser brave
+set $ss scrot 
+set $lock lock
+set $xstart /home/felix/.xstartup 
 set $power /home/felix/.config/rofi/nord/powermenu.sh
-set $lock /home/felix/.local/bin/lock
-set $xstart /home/felix/.xstartup
-set $dmenu /home/felix/.local/bin/dmenu_cus
-set $obsidian obsidian
-set $discord discord 
+set $appChange rofi -no-lazy-grab -show windowcd -modi windowcd -theme ~/.config/rofi/nord/style_7.rasi
+set $run rofi -show run -modi run -theme ~/.config/rofi/nord/style_7.rasi
+set $file rofi -show filebrowser -modi filebrowser -theme ~/.config/rofi/nord/style_7.rasi
 
-# Conf
+# CONFIG 
 font pango:FiraCode Nerd Font 8
-floating_modifier $mod
-# KeyBinds
+floating_modifier $mod 
+for_window [class=".*"] border pixel 0 #*
+gaps inner 10
+gaps outer 1
+gaps top 21
+border_radius 3
+smart_gaps on
+
+# KEYBINDINGS
+
+## WINDOW MANAGER SPECIFIC 
 bindsym $mod+q kill
+bindsym $mod+r reload
+bindsym $mod+Shift+r restart
+bindsym Mod1+Tab exec $appChange
+
+## APP SPECIFIC 
 bindsym $mod+Return exec urxvt
-bindsym $mod+z exec $dmenu
-bindsym $mod+BackSpace exec $power
+bindsym $mod+BackSpace exec $power 
 bindsym $mod+l exec $lock
-bindsym $mod+e reload
-bindsym $mod+Shift+e restart
 bindsym $mod+Shift+Return exec $launcher
 bindsym $mod+b exec $browser
+bindsym $mod+0 exec $ss
+bindsym $mod+x exec $run
+bindsym $mod+z exec $file
 
+# GENERAL WM RELATED STUFF
 
+### ACTIVE WINDOW 
 bindsym $mod+a focus left
 bindsym $mod+s focus down
 bindsym $mod+w focus up
@@ -44,6 +55,7 @@ bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
+### SHIFT WINDOW
 bindsym $mod+Shift+a move left
 bindsym $mod+Shift+s move down
 bindsym $mod+Shift+w move up
@@ -54,17 +66,17 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
+### WINDOW SPLIT MODE 
 bindsym $mod+v split v
 bindsym $mod+h split h
 
+### FULLSCREEN
 bindsym $mod+f fullscreen toggle
 
 bindsym $mod+space floating toggle
-bindsym $mod+Shift+c focus mode_toggle
+bindsym $mod+Shift+c focus m
 
-bindsym $mod+comma workspace prev
-bindsym $mod+period workspace next
-
+## WORKSPACE RELATED
 set $ws1 "1"
 set $ws2 "2"
 set $ws3 "3"
@@ -85,63 +97,19 @@ bindsym $mod+Shift+3 move container to workspace $ws3
 bindsym $mod+Shift+4 move container to workspace $ws4
 bindsym $mod+Shift+5 move container to workspace $ws5
 
-mode "i3wm" {
 
-        bindsym r reload
-        bindsym c restart
-        bindsym q exec "i3-msg exit"
-
-        bindsym Escape mode "default"
-  }
-
-mode "app" {
-        bindsym b exec $browser
-        bindsym s exec $ss 
-        bindsym BackSpace exec $power
-        bindsym Return exec $launcher
-        bindsym l exec $lock 
-        bindsym o exec $obsidian
-        bindsym d exec $discord
-
-        bindsym Escape mode "default"
-
-  }
-mode "resize" {
-        bindsym a resize shrink width 10 px or 10 ppt
-        bindsym w resize grow height 10 px or 10 ppt
-        bindsym s resize shrink height 10 px or 10 ppt
-        bindsym d resize grow width 10 px or 10 ppt
-
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
-
-        bindsym Escape mode "default"
-  }
-
-mode "terminal" {
-  bindsym h exec urxvt -e htop
-  bindsym m exec urxvt -e ncmpcpp
-  bindsym f exec urxvt -e ranger
-  # bindsym 
-
+mode "V-resize" {
+  bindsym w resize grow height 5 px or 5 ppt
+  bindsym s resize shrink height 5 px or 5 ppt
   bindsym Escape mode "default"
-}
+  }
+bindsym $mod+Shift+v mode "V-resize"
 
-bindsym $mod+r mode "resize"
-bindsym $mod+x mode "app"
-bindsym $mod+i mode "i3wm"
-bindsym $mod+t mode "terminal"
-
-for_window [class=".*"] border pixel 0 #*
-gaps inner 10
-gaps outer 1
-#gaps horizontal 2
-gaps top 21
-#gaps bottom 23
-smart_borders on
-smart_borders no_gaps
-border_radius 3
+mode "H-resize" {  
+  bindsym w resize grow width 5 px or 5 ppt
+  bindsym s resize shrink width 5 px or 5 ppt
+  bindsym Escape mode "default"
+  }
+bindsym $mod+Shift+h mode "H-resize"
 
 exec --no-startup-id $xstart

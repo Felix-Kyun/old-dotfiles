@@ -1,9 +1,9 @@
-sw_volume: 80
+sw_volume: 66
 audio_device_state:1:pulse audio
 audio_device_state:1:ncmpcpp visualizer
 state: play
-current: 0
-time: 120.070000
+current: 51
+time: 120.259000
 random: 0
 repeat: 1
 single: 0
@@ -13,4 +13,55 @@ mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
 0:nightcore/Nightcore_Infected.m4a
+1:nightcore/Nightcore_K_DA_VILLAIN_ft._Madison_Beer_and_Kim_Petras_Lyrics_.m4a
+2:nightcore/Nightcore_Let_It_Die_Lyrics_.m4a
+3:nightcore/Nightcore_Lie_to_me-lyrics_.m4a
+4:nightcore/Nightcore_Die_wants_to_live_Miss_Wanna_Cover_Lyrics_.m4a
+5:nightcore/Nightcore-Animal_Jim_Yosef_x_RIELL-Lyrics_.m4a
+6:nightcore/Nightcore-Bad_Boys-Lyrics_.m4a
+7:nightcore/Nightcore-Beautiful_Now-Lyrics_.m4a
+8:nightcore/Nightcore-Beautiful_People-Lyrics_.m4a
+9:nightcore/Nightcore-BOO_HOO_Lyrics_.m4a
+10:nightcore/Nightcore-Burn_It_All_Down_Lyrics_.m4a
+11:nightcore/Nightcore-Dandelions.m4a
+12:nightcore/Nightcore-DARKSIDE_lyrics.m4a
+13:nightcore/Nightcore-Get_you_the_moon-kina_Lyrics_.m4a
+14:nightcore/Nightcore-Give_Me_Your_Love-Deamn_.m4a
+15:nightcore/Nightcore-Habits_Stay_High-Lyrics_.m4a
+16:nightcore/Nightcore-Hate_You_Jim_Yosef_and_Riell-Lyrics_.m4a
+17:nightcore/Nightcore-hot_girl_bummer.m4a
+18:nightcore/NIGHTCORE-HOWLING_lyrics_.m4a
+19:nightcore/Nightcore-I_Wanna_Be_Your_Slave_female_Cover_Lyrics_.m4a
+20:nightcore/Nightcore-In_The_Name_Of_Love_Lyrics_.m4a
+21:nightcore/Nightcore-Knock_On_Wood_Rival_and_Highlnd-Lyrics_.m4a
+22:nightcore/Nightcore-Legendary.m4a
+23:nightcore/Nightcore-Lost_My_Mind_inverness_and_William_Bolton-Lyrics_.m4a
+24:nightcore/Nightcore-Memories_BEAUZ-Lyrics_.m4a
+25:nightcore/Nightcore-Middle_of_the_Night_Elley_Duhe-Lyrics_.m4a
+26:nightcore/Nightcore-Panic_Room-Au_Ra_Lyrics_.m4a
+27:nightcore/Nightcore-Positions-Lyrics_.m4a
+28:nightcore/Nightcore-Redemption_Lyrics_.m4a
+29:nightcore/Nightcore-Some_Say_Lyrics_.m4a
+30:nightcore/Nightcore-Shy.m4a
+31:nightcore/Nightcore-Story_Lyrics_.m4a
+32:nightcore/Nightcore-Take_A_Hint.m4a
+33:nightcore/Nightcore-The_Riddle-Lyrics_.m4a
+34:nightcore/Nightcore-Throne_Lyrics_.m4a
+35:nightcore/Nightcore-Umbrella_Lyrics_.m4a
+36:nightcore/Nightcore-Vision_pt._II_Lyrics_.m4a
+37:nightcore/Nightcore-Without_You.m4a
+38:nightcore/Nightcore-Angels_Lyrics_.m4a
+39:nightcore/Nightcore-Aurora_K-391_Lyrics_.m4a
+40:nightcore/Nightcore-It_s_You_Lyrics_.m4a
+41:nightcore/Nightcore-Devil_In_Disguise_Lyrics_.m4a
+42:nightcore/Nightcore-God_Is_A_Girl-Lyrics_.m4a
+43:nightcore/Nightcore-I_Kissed_A_Girl_rock_lyrics_.m4a
+44:nightcore/Nightcore-ILY_I_Love_You_Baby-Lyrics_.m4a
+45:nightcore/Nightcore-In_My_Mind_Remix-Lyrics_.m4a
+46:nightcore/Nightcore-Lovefool.m4a
+47:nightcore/Nightcore-Mi_Mi_Mi-Lyrics_.m4a
+48:nightcore/MMV-Sinny_and_7VVCH-Numb.m4a
+49:nightcore/Nightcore-One_Dance.m4a
+50:nightcore/8D_Nightcore_OUTLAW_Neoni_Lyrics_USE_HEADPHONES.m4a
+51:nightcore/In_Heat_X_BloodPop_.m4a
 playlist_end
