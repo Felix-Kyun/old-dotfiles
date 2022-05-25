@@ -9,27 +9,31 @@ sep() {
 	echo -e "────────────────────────────────────────────"
 }
 
-echo "MAKING BACKUP ..."
+echo "${YELLOW}MAKING BACKUP ...${RESET}"
 
 echo -e "\n${RED}> CHECKING STATUS OF FILES ...${RESET}"
 sep
 /usr/bin/git --git-dir=$HOME/.bak/ --work-tree=$HOME status
 sep
+echo
 sleep 2
 
 echo -e "${RED}> ADDING FILES ...${RESET}"
 sep
 /usr/bin/git --git-dir=$HOME/.bak/ --work-tree=$HOME add -u
+sep
+echo
 
-
-sep 
 echo -e "${GREEN}> MAKING BACKUP ... ${RESET}"
+sep
 echo -e "${YELLOW}> COMMIT MESSAGE => 'Daily Backup [$(date +%r) | $(date +'%d %B %Y')]'${RESET}"
 /usr/bin/git --git-dir=$HOME/.bak/ --work-tree=$HOME commit -m "Daily Backup [$(date +%r) | $(date +'%d %B %Y')]"
+sep 
+echo
 
-sep
 echo -e "${GREEN}PUSHING TO GITHUB ...${RESET}\n"
+sep
 /usr/bin/git --git-dir=$HOME/.bak/ --work-tree=$HOME push -u origin main
 sep 
-
+echo 
 echo -e "\n${GREEN}> DONE BACKING UP ... ${RESET}"
