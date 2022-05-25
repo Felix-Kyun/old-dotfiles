@@ -20,8 +20,9 @@ sleep 2
 echo -e "${RED}> ADDING FILES ...${RESET}"
 sep
 /usr/bin/git --git-dir=$HOME/.bak/ --work-tree=$HOME add -u
-sep 
 
+
+sep 
 echo -e "${GREEN}> MAKING BACKUP ... ${RESET}"
 echo -e "${YELLOW}> COMMIT MESSAGE => 'Daily Backup [$(date +%r) | $(date +'%d %B %Y')]'${RESET}"
 /usr/bin/git --git-dir=$HOME/.bak/ --work-tree=$HOME commit -m "Daily Backup [$(date +%r) | $(date +'%d %B %Y')]"
@@ -31,4 +32,4 @@ echo -e "${GREEN}PUSHING TO GITHUB ...${RESET}\n"
 /usr/bin/git --git-dir=$HOME/.bak/ --work-tree=$HOME push -u origin main
 sep 
 
-echo -e "${GREEN}> DONE BACKING UP ... ${RESET}"
+echo -e "\n${GREEN}> DONE BACKING UP ... ${RESET}"
