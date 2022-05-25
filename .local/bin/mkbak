@@ -26,7 +26,7 @@ echo
 
 echo -e "${GREEN}> MAKING BACKUP ... ${RESET}"
 sep
-echo -e "${YELLOW}> COMMIT MESSAGE => 'Daily Backup [$(date +%r) | $(date +'%d %B %Y')]'${RESET}"
+echo -e "${YELLOW}> COMMIT MESSAGE => 'Daily Backup [$(date +%r) | $(date +'%d %B %Y')]'${RESET}\n"
 /usr/bin/git --git-dir=$HOME/.bak/ --work-tree=$HOME commit -m "Daily Backup [$(date +%r) | $(date +'%d %B %Y')]"
 sep 
 echo
