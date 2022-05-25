@@ -31,9 +31,9 @@ echo -e "${YELLOW}> COMMIT MESSAGE => 'Daily Backup [$(date +%r) | $(date +'%d %
 sep 
 echo
 
-echo -e "${GREEN}PUSHING TO GITHUB ...${RESET}\n"
+echo -e "${GREEN}PUSHING TO GITHUB ...${RESET}"
 sep
 /usr/bin/git --git-dir=$HOME/.bak/ --work-tree=$HOME push -u origin main
 sep 
-echo 
+
 echo -e "\n${GREEN}> DONE BACKING UP ... ${RESET}"
