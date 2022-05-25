@@ -1,15 +1,34 @@
 #!/bin/bash
 
-echo "checking status..."
+RED=$(tput setaf 1)
+GREEN=$(tput setaf 2)
+YELLOW=$(tput setaf 3)
+RESET=$(tput sgr0)
+
+sep() { 
+	echo -e "────────────────────────────────────────────\n"
+}
+
+echo "MAKING BACKUP ..."
+
+echo -e "\n${RED}> CHECKING STATUS OF FILES ...${RESET}"
+sep
 /usr/bin/git --git-dir=$HOME/.bak/ --work-tree=$HOME status
+sep
 sleep 2
 
-echo "adding modified files..."
+echo -e "${RED}> ADDING FILES ...${RESET}"
+sep
 /usr/bin/git --git-dir=$HOME/.bak/ --work-tree=$HOME add -u
+sep 
 
-echo commiting with MSG="Daily Backup [$(date +%r) | $(date +'%d %B %Y')]"
+echo -e "${GREEN}> MAKING BACKUP ... ${RESET}"
+echo -e "${YELLOW}> COMMIT MESSAGE => 'Daily Backup [$(date +%r) | $(date +'%d %B %Y')]'${RESET}"
 /usr/bin/git --git-dir=$HOME/.bak/ --work-tree=$HOME commit -m "Daily Backup [$(date +%r) | $(date +'%d %B %Y')]"
 
-echo "pushing to github..."
+ech -e "${GREEN}PUSHING TO GITHUB ...${RESET}"
+sep 
 /usr/bin/git --git-dir=$HOME/.bak/ --work-tree=$HOME push -u origin main
-echo "done backing up..."
+sep 
+
+echo -e "${GREEN}> DONE BACKING UP ... ${RESET}"
