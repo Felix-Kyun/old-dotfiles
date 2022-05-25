@@ -6,7 +6,7 @@ YELLOW=$(tput setaf 3)
 RESET=$(tput sgr0)
 
 sep() { 
-	echo -e "\n────────────────────────────────────────────"
+	echo -e "────────────────────────────────────────────"
 }
 
 echo "MAKING BACKUP ..."
@@ -27,7 +27,7 @@ echo -e "${YELLOW}> COMMIT MESSAGE => 'Daily Backup [$(date +%r) | $(date +'%d %
 /usr/bin/git --git-dir=$HOME/.bak/ --work-tree=$HOME commit -m "Daily Backup [$(date +%r) | $(date +'%d %B %Y')]"
 
 sep
-echo -e "${GREEN}PUSHING TO GITHUB ...${RESET}"
+echo -e "${GREEN}PUSHING TO GITHUB ...${RESET}\n"
 /usr/bin/git --git-dir=$HOME/.bak/ --work-tree=$HOME push -u origin main
 sep 
 
