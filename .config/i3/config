@@ -9,7 +9,7 @@
 
 # Variables
 set $mod Mod4
-set $browser firefox
+set $browser brave
 set $ss scrot
 set $launcher rofi -no-lazy-grab -show drun -modi drun -theme ~/.config/rofi/nord/style_7.rasi
 set $power /home/felix/.config/rofi/nord/powermenu.sh
@@ -24,7 +24,7 @@ font pango:FiraCode Nerd Font 8
 floating_modifier $mod
 # KeyBinds
 bindsym $mod+q kill
-bindsym $mod+Return exec alafix
+bindsym $mod+Return exec urxvt
 bindsym $mod+z exec $dmenu
 bindsym $mod+BackSpace exec $power
 bindsym $mod+l exec $lock
@@ -120,16 +120,26 @@ mode "resize" {
         bindsym Escape mode "default"
   }
 
+mode "terminal" {
+  bindsym h exec urxvt -e htop
+  bindsym m exec urxvt -e ncmpcpp
+  bindsym f exec urxvt -e ranger
+  # bindsym 
+
+  bindsym Escape mode "default"
+}
+
 bindsym $mod+r mode "resize"
 bindsym $mod+x mode "app"
 bindsym $mod+i mode "i3wm"
+bindsym $mod+t mode "terminal"
 
 for_window [class=".*"] border pixel 0 #*
 gaps inner 10
 gaps outer 1
 #gaps horizontal 2
-gaps top 23
-gaps bottom 23
+gaps top 21
+#gaps bottom 23
 smart_borders on
 smart_borders no_gaps
 border_radius 3

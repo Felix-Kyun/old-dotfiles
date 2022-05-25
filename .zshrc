@@ -7,7 +7,8 @@
 #                               My Zsh Config [OMZ]
 
 # Print Greet 
-figlet -cf slant Felix_Kyun | lolcat
+# figlet -cf slant Felix_Kyun | lolcat
+zfetch   
 #tput cup $(($LINES - 2)) 0
 #
 # enable p10k Instant Prompt
@@ -30,6 +31,6 @@ path+=('/home/felix/.local/bin')
 
 # Enable Other Configs
 . ~/.zsh_aliases
-
+. ~/.zsh_vars
 # Finally Enable p10k
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
