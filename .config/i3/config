@@ -41,6 +41,7 @@ bindsym $mod+b exec $browser
 bindsym $mod+0 exec $ss
 bindsym $mod+x exec $run
 bindsym $mod+z exec $file
+bindsym $mod+p exec polyhide 
 
 # GENERAL WM RELATED STUFF
 
@@ -74,7 +75,7 @@ bindsym $mod+h split h
 bindsym $mod+f fullscreen toggle
 
 bindsym $mod+space floating toggle
-bindsym $mod+Shift+c focus m
+bindsym $mod+Shift+c focus mode_toggle
 
 ## WORKSPACE RELATED
 set $ws1 "1"

@@ -1,9 +1,9 @@
-sw_volume: 66
+sw_volume: 62
 audio_device_state:1:pulse audio
 audio_device_state:1:ncmpcpp visualizer
-state: play
-current: 51
-time: 120.259000
+state: pause
+current: 7
+time: 42.504000
 random: 0
 repeat: 1
 single: 0
@@ -64,4 +64,5 @@ playlist_begin
 49:nightcore/Nightcore-One_Dance.m4a
 50:nightcore/8D_Nightcore_OUTLAW_Neoni_Lyrics_USE_HEADPHONES.m4a
 51:nightcore/In_Heat_X_BloodPop_.m4a
+52:nightcore/Nightcore-All_My_Friends_Are_Fake_Lyrics_.m4a
 playlist_end
