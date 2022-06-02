@@ -1,7 +1,0 @@
-#! /usr/bin/env bash
-
-theme() {
-    if [[ -f ~/.config/gtk-3.0/settings.ini ]]; then
-        echo -ne "${OS_COLOR}${COLOR_RESET}"
-    fi
-}

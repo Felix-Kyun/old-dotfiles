@@ -1,5 +1,0 @@
-#! /usr/bin/env bash
-
-gpu() {
-    echo -ne "${OS_COLOR}GPU:${COLOR_RESET} $(_V=($(lspci | grep VGA | cut -d: -f3)); echo ${_V[@]:0:5})"
-}

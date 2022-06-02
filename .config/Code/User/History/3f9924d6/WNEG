@@ -1,5 +1,0 @@
-#! /usr/bin/env bash
-
-terminal() {
-    echo -ne "${OS_COLOR}Terminal:${COLOR_RESET} $(ps -o 'cmd=' -p $$)"
-}

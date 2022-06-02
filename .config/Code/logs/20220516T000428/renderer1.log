@@ -1,2 +1,0 @@
-[2022-05-16 00:04:39.685] [renderer1] [warning] [streetsidesoftware.code-spell-checker]: Cannot register 'cSpell.enableFiletypes'. This property is already registered.
-[2022-05-16 00:04:39.686] [renderer1] [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.

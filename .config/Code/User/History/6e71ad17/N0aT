@@ -1,5 +1,0 @@
-#! /usr/bin/env bash
-
-kernel() {
-    echo -ne "${OS_COLOR}Kernel:${COLOR_RESET} $(uname -r)"
-}

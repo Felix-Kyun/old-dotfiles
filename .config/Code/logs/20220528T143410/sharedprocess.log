@@ -1,9 +1,0 @@
-[2022-05-28 14:34:18.031] [sharedprocess] [info] Starting worker process with pid 3734 (type: fileWatcher, window: 1).
-[2022-05-28 14:34:18.847] [sharedprocess] [info] Deleted from disk jeff-hykin.better-cpp-syntax /home/felix/.vscode/extensions/jeff-hykin.better-cpp-syntax-1.15.13
-[2022-05-28 14:34:22.906] [sharedprocess] [info] Getting Manifest... mads-hartmann.bash-ide-vscode
-[2022-05-28 14:34:24.048] [sharedprocess] [info] Installing extension: mads-hartmann.bash-ide-vscode
-[2022-05-28 14:34:24.498] [sharedprocess] [info] Downloaded extension: mads-hartmann.bash-ide-vscode /home/felix/.config/Code/CachedExtensionVSIXs/mads-hartmann.bash-ide-vscode-1.14.0
-[2022-05-28 14:34:27.517] [sharedprocess] [info] Extracted extension to /home/felix/.vscode/extensions/.1ba3b4b6-1be6-4bb3-b67a-8614f4cacb91: mads-hartmann.bash-ide-vscode
-[2022-05-28 14:34:27.591] [sharedprocess] [info] Renamed to /home/felix/.vscode/extensions/mads-hartmann.bash-ide-vscode-1.14.0
-[2022-05-28 14:34:27.594] [sharedprocess] [info] Extracting completed. mads-hartmann.bash-ide-vscode
-[2022-05-28 14:34:27.630] [sharedprocess] [info] Extension installed successfully: mads-hartmann.bash-ide-vscode

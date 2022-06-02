@@ -1,5 +1,0 @@
-#! /usr/bin/env bash
-
-WM() {
-    echo -ne "${OS_COLOR}WM:${COLOR_RESET} $(wmctrl -m | grep Name | cut -d ' ' -f2)"
-}

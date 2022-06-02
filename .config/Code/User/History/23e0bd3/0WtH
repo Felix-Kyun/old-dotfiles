@@ -1,7 +1,0 @@
-#! /usr/bin/env bash
-
-theme() {
-    if [[ -f ~/.config/gtk-3.0/settings.ini ]]; then
-        echo -ne "${OS_COLOR}Icons:${COLOR_RESET} $( cat ~/.config/gtk-3.0/settings.ini | grep gtk-icon-theme-name | cut -d= -f2 )"
-    fi
-}
