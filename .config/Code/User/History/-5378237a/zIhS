@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+
+resolution() {
+    echo -ne "${OS_COLOR}Resolution:${COLOR_RESET} $(xrandr --current | grep "*" | awk '{print $1}')"
+}

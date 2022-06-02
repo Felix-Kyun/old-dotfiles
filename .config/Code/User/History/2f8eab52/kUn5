@@ -1,0 +1,40 @@
+#! /usr/bin/env bash
+
+## zclock
+## minimal terminal clock
+
+vcenter() {
+  for ((x=0; x < $(( $(tput lines) /2 -1 )); x++)); do
+    echo 
+  done
+}
+
+render_time() { 
+  TEMP_TIME=$(date +%r)
+  while [[ ! $TEMP_TIME == $(date +%r) ]]; do
+    sleep 0.1
+  done
+  for ((x=0; x < $(( ( $(tput cols) -11) /2 )); x++)); do
+    echo -ne " "
+  done
+  while :; do
+    TIME=$(date +%r)
+    echo -ne "$TIME"
+    echo -ne "$(tput cub ${#TIME} )"
+    sleep 1
+  done
+}
+check_exit() {
+  while :; do
+    KEY=""
+    read $KEY
+    if [[ $KEY == "q" ]]; then
+      exit 0
+    fi
+  done
+}
+
+clear
+vcenter
+render_time
+    while read -t 0 && read -rN 1 ; do [ "${REPLY}" = q ] && break 2 || true; done

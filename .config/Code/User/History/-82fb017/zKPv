@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+
+_os() {
+    echo -ne "${OS_COLOR}OS:${COLOR_RESET} $(lsb_release -sdc | tr -d \" )"
+}

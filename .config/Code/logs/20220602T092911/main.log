@@ -1,0 +1,10 @@
+[2022-06-02 09:29:12.487] [main] [info] window#load: attempt to load window (id: 1)
+[2022-06-02 09:29:12.513] [main] [info] update#setState idle
+[2022-06-02 09:29:12.646] [main] [info] ExtensionHostStarterWorker created
+[2022-06-02 09:29:14.850] [main] [info] window#load: window reported ready (id: 1)
+[2022-06-02 09:29:15.871] [main] [info] Starting extension host with pid 4327 (fork() took 51 ms).
+[2022-06-02 09:29:15.871] [main] [info] ExtensionHostStarterWorker.start() took 54 ms.
+[2022-06-02 09:29:18.836] [main] [info] Waiting for extension host with pid 4327 to exit.
+[2022-06-02 09:29:19.440] [main] [warning] [storage main] detected slow close() operation: Time: 628ms, DB size: 487424b, Large Keys: iconThemeData:395045, colorThemeData:26441, workbench.activity.placeholderViewlets:4011, __$__targetStorageMarker:3054, memento/experiment.service.memento:2253
+[2022-06-02 09:29:19.509] [main] [warning] [storage main] detected slow close() operation: Time: 698ms, DB size: 20480b, Large Keys: __$__targetStorageMarker:916, workbench.view.debug.state:528, memento/workbench.parts.editor:313, workbench.panel.placeholderPanels:240, workbench.explorer.views.state:231
+[2022-06-02 09:29:20.152] [main] [info] Extension host with pid 4327 exited with code: 0, signal: null.

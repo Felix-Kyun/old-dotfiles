@@ -1,0 +1,103 @@
+#! /usr/bin/env bash
+
+alias left="tput cub"
+alias right="tput cuf" 
+alias down="tput cud"
+alias up="tput cup"
+
+order() {
+    sleep $1
+}
+
+render_border() {
+    # order 0.0
+    # define vert and horz border symbols
+    VERT="|"
+    HORZ_ALT="-"
+    HORZ="-"
+    COLS=$(tput cols)
+    LINES=$(tput lines)
+
+    clear; tput sc 
+
+    #cycle 1 for printing top line
+    echo -n $VERT
+    for ((x=0; x < $(( $COLS - 2 )); x++)); do
+        echo -n $HORZ_ALT 
+    done
+    echo -n $VERT
+
+    #middle cycle
+    for ((y=0; y < $(( $LINES - 2 )); y++ )); do
+        echo -n $VERT
+        for ((x=0; x < $(( $COLS - 2 )); x++)); do
+            echo -n " "
+        done
+        echo -n $VERT
+    done
+
+    #end cycle for printing bottom
+    echo -n $VERT
+    for ((x=0; x < $(( $COLS - 2 )); x++)); do
+        echo -n $HORZ 
+    done
+    echo -n $VERT
+    
+}
+
+render_dummy() {
+    order 0.2
+    tput cup 0 0 
+    tput cud $((($(tput lines) /2 ) -1 ))
+    MSG="welcome to Zui"
+    DIFF=${#MSG}
+    tput cuf $(( ($(tput cols) - $DIFF -1) /2 ))
+    echo -n $MSG
+}
+
+version() {
+    # order 0.4
+    BOLD=$(tput bold)
+    RESET=$(tput sgr0)
+    VERSION="V0.2.1"
+    tput cup $(($LINES -1))
+    tput cuf $(($COLS - ${#VERSION}))
+    echo -n "$BOLD$VERSION$RESET"
+}
+
+render_border # keep it blocking
+
+# version 
+# render_dummy &  
+
+render_main() {
+
+
+    LINE_1="test"
+    LINE_2=""
+    LINE_3=""
+    LINE_4=""
+    LINE_5=""
+
+    sub_render () {
+        COL_CONST=10
+        COLS_=$(( ($(tput cols) - $COL_CONST) /2 ))
+        COL_MAX=5
+        render_line() {
+            echo -n "$1"
+            #cleanup
+            right $COL_MAX
+            for ((x=0; x < $(($(tput cols) /2)); x++)); do
+                echo -n " "
+            done
+            left 1
+            echo -ne "|"
+        }
+        render_line $LINE_1
+    }
+}
+
+render main
+
+sleep 5
+clear

@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+
+cpu() {
+    echo -ne "${OS_COLOR}CPU:${COLOR_RESET}$(_V=($(lscpu | grep 'Model name')); echo ${_V} | cut -d: -f2 | cut -d@ -f 1)"
+}

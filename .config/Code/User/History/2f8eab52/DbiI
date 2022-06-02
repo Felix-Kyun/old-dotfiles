@@ -1,0 +1,41 @@
+#! /usr/bin/env bash
+
+CHECK_TIME=$(date +%r)
+
+
+v_center() {
+  LINES=$(( $(tput lines) /2 -1 ))
+  for ((x=0; x < $LINES; x++)); do
+    echo ''
+  done
+}
+
+h_center() {
+  COLS=$(( ($(tput cols) - $1) /2 ))
+  for ((y=0; y < $COLS; y++)); do
+    echo -n " "
+  done
+  echo -ne "\r"
+}
+
+echo_time() {
+  v_center
+    TIME=$(date +%r)
+    h_center ${#TIME}
+    echo -ne "\r$TIME"
+  while true; do 
+    if [[ ! $TIME = $(date +%r) ]]; then
+      h_center ${#TIME}
+      echo -ne "\r$(date +%r)"
+      sleep 1
+    fi
+  done
+}
+
+clear 
+
+echo_time &
+
+while :; do
+sleep 100
+done

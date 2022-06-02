@@ -1,0 +1,638 @@
+[Info  - 9:57:58 PM] BashLanguageServer initializing...
+[Info  - 9:58:00 PM] BashLanguageServer initialized
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onCompletion 2:1 word="P"
+onDocumentHighlight 2:1 word=null
+onCompletionResolve name=POST type=1
+onDocumentHighlight 2:2 word=null
+onCompletion 2:3 word="PUS"
+onDocumentHighlight 2:3 word=null
+onDocumentHighlight 2:4 word=null
+onDocumentSymbol
+onDocumentHighlight 2:4 word=null
+onDocumentSymbol
+onDocumentHighlight 2:5 word=null
+onCompletion 2:5 word="PUSH_"
+onDocumentSymbol
+onCompletion 2:6 word="PUSH_U"
+onDocumentHighlight 2:6 word=null
+onDocumentHighlight 2:7 word=null
+onCompletion 2:7 word="PUSH_UR"
+onCompletion 2:8 word="PUSH_URL"
+onDocumentHighlight 2:8 word=null
+onDocumentSymbol
+onDocumentSymbol
+onCompletion 3:1 word="P"
+onDocumentHighlight 3:1 word=null
+onCompletionResolve name=POST type=1
+onDocumentHighlight 3:2 word=null
+onCompletion 3:3 word="PUL"
+onDocumentHighlight 3:3 word=null
+onDocumentHighlight 3:4 word=null
+onDocumentSymbol
+onDocumentHighlight 3:5 word=null
+onCompletion 3:5 word="PULL_"
+onDocumentSymbol
+onCompletion 3:6 word="PULL_U"
+onDocumentHighlight 3:6 word=null
+onCompletion 3:7 word="PULL_UR"
+onDocumentHighlight 3:7 word=null
+onDocumentSymbol
+onCompletion 3:8 word="PULL_URL"
+onDocumentHighlight 3:8 word=null
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onCompletion 5:1 word="F"
+onDocumentHighlight 5:1 word=null
+onCompletionResolve name=FileCheck type=1
+onCompletionResolve name=FileCheck type=1
+onDocumentHighlight 5:2 word=null
+onCompletionResolve name=FileCheck type=1
+onDocumentHighlight 5:3 word=null
+onCompletionResolve name=FileCheck type=1
+onDocumentHighlight 5:4 word=null
+onCompletionResolve name=FileCheck type=1
+onDocumentHighlight 5:3 word=null
+onDocumentHighlight 5:2 word=null
+onDocumentHighlight 5:1 word=null
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentHighlight 3:8 word=null
+onDocumentHighlight 3:7 word=null
+onDocumentHighlight 3:6 word=null
+onDocumentHighlight 3:5 word=null
+onDocumentHighlight 3:4 word=null
+onDocumentHighlight 3:3 word=null
+onDocumentHighlight 3:2 word=null
+onDocumentHighlight 3:1 word=null
+onDocumentSymbol
+onDocumentSymbol
+onDocumentHighlight 2:8 word=null
+onDocumentSymbol
+onDocumentHighlight 2:7 word=null
+onDocumentHighlight 2:6 word=null
+onDocumentHighlight 2:5 word=null
+onDocumentHighlight 2:4 word=null
+onDocumentHighlight 2:3 word=null
+onDocumentHighlight 2:2 word=null
+onDocumentSymbol
+onCompletion 2:3 word="PUL"
+onDocumentHighlight 2:3 word=null
+onCompletion 2:4 word="PULL"
+onDocumentHighlight 2:4 word=null
+onDocumentSymbol
+onCompletion 2:5 word="PULL_"
+onDocumentHighlight 2:5 word=null
+onDocumentSymbol
+onCompletion 2:6 word="PULL_U"
+onDocumentHighlight 2:6 word=null
+onDocumentHighlight 2:7 word=null
+onCompletion 2:7 word="PULL_UR"
+onCompletion 2:8 word="PULL_URL"
+onDocumentHighlight 2:8 word=null
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentHighlight 4:1 word=null
+onCompletion 4:1 word="w"
+onCompletionResolve name=w type=1
+onCompletionResolve name=wget type=1
+onDocumentHighlight 4:2 word=null
+onCompletionResolve name=wget type=1
+onDocumentHighlight 4:3 word=null
+onCompletionResolve name=wget type=1
+onDocumentHighlight 4:4 word=null
+onCompletionResolve name=wget type=1
+onDocumentHighlight 4:3 word=null
+onCompletionResolve name=wget type=1
+onDocumentHighlight 4:2 word=null
+onCompletionResolve name=w type=1
+onDocumentHighlight 4:1 word=null
+onDocumentSymbol
+onDocumentSymbol
+onCompletion 4:1 word="r"
+onDocumentHighlight 4:1 word=null
+onCompletionResolve name=ranger type=1
+onCompletionResolve name=rm type=1
+onDocumentHighlight 4:2 word=null
+onDocumentSymbol
+onCompletion 4:4 word="$"
+onDocumentSymbol
+onDocumentSymbol
+onDocumentHighlight 4:5 word=null
+onDocumentSymbol
+onDocumentHighlight 4:2 word=null
+onDocumentSymbol
+onDocumentHighlight 4:1 word=null
+onDocumentSymbol
+onDocumentHighlight 4:1 word=null
+onCompletion 4:1 word="i"
+onCompletionResolve name=i3 type=1
+onCompletionResolve name=if type=2
+onDocumentHighlight 4:2 word=null
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onCompletion 4:8 word="-f"
+onDocumentHighlight 4:8 word="]]"
+onDocumentSymbol
+onDocumentSymbol
+onCompletion 4:12 word="$"
+onDocumentHighlight 4:13 word=null
+onDocumentSymbol
+onDocumentSymbol
+onCompletion 4:19 word="t"
+onDocumentHighlight 4:19 word=null
+onCompletionResolve name=tabs type=1
+onCompletionResolve name=theme type=1
+onDocumentHighlight 4:20 word=null
+onCompletionResolve name=theme type=1
+onDocumentHighlight 4:21 word=null
+onCompletionResolve name=then type=2
+onDocumentHighlight 4:22 word=null
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentHighlight 5:5 word=null
+onCompletion 5:5 word="r"
+onCompletionResolve name=ranger type=1
+onCompletionResolve name=rm type=1
+onDocumentHighlight 5:6 word=null
+onDocumentSymbol
+onDocumentHighlight 5:6 word=null
+onDocumentHighlight 5:5 word=null
+onDocumentSymbol
+onDocumentHighlight 4:22 word=null
+onDocumentHighlight 4:21 word=null
+onDocumentHighlight 4:20 word=null
+onDocumentHighlight 4:19 word=null
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onCompletion 4:21 word="r"
+onDocumentHighlight 4:21 word=null
+onCompletionResolve name=ranger type=1
+onCompletionResolve name=rm type=1
+onDocumentHighlight 4:22 word=null
+onDocumentSymbol
+onCompletion 4:24 word="$"
+onDocumentHighlight 4:25 word=null
+onDocumentSymbol
+onDocumentHighlight 4:20 word="rm"
+onDocumentHighlight 4:12 word="1"
+onDocumentHighlight 4:7 word="-f"
+onDocumentHighlight 4:0 word="if"
+onDocumentHighlight 2:0 word="PULL_URL"
+onDocumentHighlight 0:16 word="#! /usr/bin/env bash"
+onDocumentHighlight 0:12 word="#! /usr/bin/env bash"
+onDocumentHighlight 0:8 word="#! /usr/bin/env bash"
+onDocumentHighlight 0:4 word="#! /usr/bin/env bash"
+onDocumentHighlight 0:11 word="#! /usr/bin/env bash"
+onDocumentHighlight 0:15 word="#! /usr/bin/env bash"
+onDocumentHighlight 0:20 word="#! /usr/bin/env bash"
+onDocumentHighlight 2:0 word="PULL_URL"
+onDocumentHighlight 4:0 word="if"
+onDocumentHighlight 4:1 word="if"
+onDocumentHighlight 4:2 word=null
+onDocumentHighlight 4:2 word="["
+onDocumentHighlight 4:1 word="["
+onDocumentSymbol
+onDocumentSymbol
+onCompletion 5:1 word="a"
+onDocumentHighlight 5:1 word=null
+onCompletionResolve name=a2x type=1
+onCompletionResolve name=adb type=1
+onDocumentHighlight 5:2 word=null
+onCompletionResolve name=adb type=1
+onDocumentHighlight 5:3 word=null
+onDocumentSymbol
+onCompletion 5:5 word="r"
+onDocumentHighlight 5:5 word=null
+onCompletionResolve name=ranger type=1
+onCompletionResolve name=roff2dvi type=1
+onDocumentHighlight 5:6 word=null
+onCompletionResolve name=repack_bootimg type=1
+onDocumentHighlight 5:7 word=null
+onCompletionResolve name=repack_bootimg type=1
+onDocumentHighlight 5:8 word=null
+onDocumentSymbol
+onDocumentSymbol
+onCompletion 6:1 word="a"
+onDocumentHighlight 6:1 word=null
+onCompletionResolve name=a2x type=1
+onCompletionResolve name=adb type=1
+onDocumentHighlight 6:2 word=null
+onDocumentHighlight 6:3 word=null
+onDocumentSymbol
+onCompletion 6:5 word="s"
+onDocumentHighlight 6:5 word=null
+onCompletionResolve name=samplers type=1
+onDocumentSymbol
+onCompletionResolve name=sha1sum type=1
+onDocumentHighlight 6:6 word=null
+onCompletionResolve name=sherlock265 type=1
+onDocumentHighlight 6:7 word=null
+onDocumentSymbol
+onDocumentHighlight 6:8 word=null
+onCompletionResolve name=src-hilite-lesspipe.sh type=1
+onDocumentHighlight 6:9 word=null
+onDocumentSymbol
+onDocumentHighlight 6:9 word=null
+onDocumentHighlight 6:8 word=null
+onDocumentHighlight 6:7 word=null
+onDocumentHighlight 6:6 word=null
+onDocumentHighlight 6:5 word=null
+onDocumentHighlight 6:3 word=null
+onDocumentSymbol
+onDocumentHighlight 6:2 word=null
+onDocumentHighlight 6:1 word=null
+onDocumentSymbol
+onDocumentSymbol
+onDocumentHighlight 3:0 word="adb"
+onCompletion 6:1 word="p"
+onDocumentHighlight 6:1 word=null
+onDocumentSymbol
+onDocumentHighlight 6:1 word=null
+onDocumentSymbol
+onDocumentHighlight 6:0 word="adb"
+onDocumentSymbol
+onDocumentHighlight 7:0 word="adb"
+onDocumentHighlight 8:0 word="adb"
+onDocumentHighlight 9:0 word="adb"
+onDocumentHighlight 8:0 word="adb"
+onDocumentHighlight 7:0 word="adb"
+onDocumentHighlight 6:0 word="adb"
+onDocumentHighlight 5:0 word="adb"
+onDocumentSymbol
+onDocumentSymbol
+onDocumentHighlight 5:1 word=null
+onCompletion 5:1 word="w"
+onCompletionResolve name=w type=1
+onCompletionResolve name=wget type=1
+onDocumentHighlight 5:2 word=null
+onCompletionResolve name=wget type=1
+onDocumentHighlight 5:3 word=null
+onDocumentHighlight 5:4 word=null
+onDocumentSymbol
+onHover 10:26 word="/vendor/etc/"
+onCompletion 5:6 word="$"
+onDocumentSymbol
+onDocumentHighlight 5:7 word=null
+onCompletion 5:7 word="P"
+onCompletionResolve name=POST type=1
+onDocumentSymbol
+onDocumentHighlight 5:8 word=null
+onHover 10:26 word="/vendor/etc/"
+onDocumentSymbol
+onDocumentSymbol
+onDocumentHighlight 5:8 word=null
+onDocumentSymbol
+onDocumentHighlight 5:9 word=null
+onCompletion 5:9 word="PUL"
+onDocumentHighlight 5:10 word=null
+onDocumentSymbol
+onDocumentHighlight 5:14 word=null
+onDocumentSymbol
+onDocumentSymbol
+onCompletion 5:16 word="$"
+onDocumentHighlight 5:17 word=null
+onDocumentSymbol
+onDocumentSymbol
+onDocumentHighlight 5:17 word=null
+onDocumentSymbol
+onDocumentHighlight 7:0 word="adb"
+onDocumentHighlight 8:0 word="adb"
+onDocumentHighlight 9:0 word="adb"
+onDocumentHighlight 10:0 word="adb"
+onDocumentHighlight 11:0 word="adb"
+onDocumentHighlight 12:0 word="sleep"
+onDocumentHighlight 13:0 word="adb"
+onCompletion 15:1 word="e"
+onDocumentHighlight 15:1 word=null
+onCompletionResolve name=e2freefrag type=1
+onDocumentSymbol
+onCompletionResolve name=echo type=0
+onDocumentHighlight 15:2 word=null
+onCompletionResolve name=echo type=0
+onDocumentHighlight 15:3 word=null
+onCompletionResolve name=echo type=0
+onDocumentHighlight 15:4 word=null
+onHover 10:26 word="/vendor/etc/"
+onDocumentSymbol
+onCompletion 15:6 word="D"
+onDocumentHighlight 15:6 word=null
+onDocumentHighlight 15:7 word=null
+onHover 10:26 word="/vendor/etc/"
+onDocumentHighlight 15:8 word=null
+onCompletion 15:9 word="Done"
+onDocumentHighlight 15:9 word=null
+onDocumentSymbol
+onHover 10:26 word="/vendor/etc/"
+onDocumentHighlight 13:0 word="adb"
+onDocumentHighlight 12:0 word="sleep"
+onDocumentHighlight 13:0 word="adb"
+onDocumentHighlight 15:0 word="echo"
+onDocumentHighlight 15:1 word="echo"
+onDocumentHighlight 15:2 word="echo"
+onDocumentHighlight 15:3 word="echo"
+onDocumentHighlight 15:4 word=null
+onDocumentHighlight 15:5 word="Done"
+onDocumentHighlight 15:6 word="Done"
+onDocumentHighlight 15:7 word="Done"
+onDocumentHighlight 15:8 word="Done"
+onDocumentHighlight 15:9 word=null
+onDocumentHighlight 15:8 word=null
+onDocumentHighlight 15:7 word=null
+onDocumentHighlight 15:6 word=null
+onDocumentSymbol
+onHover 10:26 word="/vendor/etc/"
+onCompletion 15:7 word="-e"
+onDocumentHighlight 15:7 word=null
+onDocumentSymbol
+onHover 10:25 word="/vendor/etc/"
+onDocumentSymbol
+onDocumentHighlight 15:10 word="""
+onDocumentHighlight 15:11 word="""
+onDocumentHighlight 15:12 word="""
+onDocumentHighlight 15:13 word="""
+onHover 10:25 word="/vendor/etc/"
+onDocumentSymbol
+onDocumentSymbol
+onHover 10:25 word="/vendor/etc/"
+onDocumentHighlight 15:13 word="""
+onDocumentSymbol
+onDocumentSymbol
+onDocumentHighlight 13:0 word="adb"
+onDocumentHighlight 12:0 word="sleep"
+onDocumentHighlight 11:0 word="adb"
+onDocumentHighlight 10:0 word="adb"
+onDocumentHighlight 9:0 word="adb"
+onDocumentHighlight 8:0 word="adb"
+onDocumentHighlight 7:0 word="adb"
+onDocumentHighlight 5:0 word="wget"
+onDocumentHighlight 2:0 word="PULL_URL"
+onDocumentHighlight 2:0 word="PULL_URL"
+onDocumentSymbol
+onCompletion 4:1 word="e"
+onDocumentHighlight 4:1 word=null
+onCompletionResolve name=e2freefrag type=1
+onCompletionResolve name=echo type=0
+onDocumentHighlight 4:2 word=null
+onDocumentHighlight 4:3 word=null
+onCompletion 4:5 word="o"
+onDocumentHighlight 4:5 word=null
+onCompletionResolve name=obj2yaml type=1
+onDocumentSymbol
+onDocumentHighlight 4:3 word=null
+onDocumentSymbol
+onCompletion 4:4 word="echo"
+onDocumentHighlight 4:4 word=null
+onCompletionResolve name=echo type=0
+onDocumentSymbol
+onDocumentHighlight 4:6 word=null
+onCompletion 4:6 word="G"
+onCompletionResolve name=GET type=1
+onDocumentHighlight 4:7 word=null
+onDocumentHighlight 4:8 word=null
+onDocumentHighlight 4:9 word=null
+onDocumentHighlight 4:10 word=null
+onCompletion 4:11 word="Gettin"
+onDocumentHighlight 4:11 word=null
+onCompletion 4:12 word="Getting"
+onDocumentHighlight 4:12 word=null
+onDocumentSymbol
+onDocumentHighlight 4:14 word=null
+onCompletion 4:14 word="F"
+onCompletionResolve name=FileCheck type=1
+onDocumentHighlight 4:15 word=null
+onDocumentHighlight 4:16 word=null
+onDocumentHighlight 4:17 word=null
+onDocumentSymbol
+onDocumentHighlight 5:18 word="rm"
+onDocumentHighlight 6:17 word=null
+onDocumentHighlight 8:0 word="adb"
+onDocumentSymbol
+onHover 10:26 word="remount,rw,discard"
+onHover 10:26 word="remount,rw,discard"
+onDocumentHighlight 8:1 word=null
+onCompletion 8:1 word="e"
+onCompletionResolve name=e2freefrag type=1
+onCompletionResolve name=echo type=0
+onDocumentHighlight 8:2 word=null
+onCompletionResolve name=echo type=0
+onDocumentHighlight 8:3 word=null
+onDocumentHighlight 8:4 word=null
+onHover 10:26 word="remount,rw,discard"
+onDocumentSymbol
+onHover 10:26 word="remount,rw,discard"
+onDocumentSymbol
+onHover 10:26 word="remount,rw,discard"
+onDocumentSymbol
+onDocumentHighlight 8:7 word=null
+onCompletion 8:7 word="-e"
+onHover 10:26 word="remount,rw,discard"
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentHighlight 8:11 word="""
+onDocumentSymbol
+onDocumentHighlight 8:13 word="""
+onDocumentHighlight 8:14 word="""
+onDocumentHighlight 8:15 word="""
+onDocumentSymbol
+onDocumentHighlight 8:15 word="""
+onDocumentHighlight 8:14 word="""
+onDocumentHighlight 8:13 word="""
+onDocumentSymbol
+onDocumentSymbol
+onDocumentHighlight 8:13 word="""
+onDocumentHighlight 8:14 word="""
+onDocumentHighlight 8:15 word="""
+onDocumentSymbol
+onDocumentHighlight 8:16 word="""
+onDocumentHighlight 8:17 word="""
+onDocumentHighlight 8:18 word="""
+onDocumentHighlight 8:19 word="""
+onDocumentSymbol
+onDocumentHighlight 8:21 word="""
+onDocumentHighlight 8:22 word="""
+onDocumentHighlight 8:23 word="""
+onDocumentHighlight 8:24 word="""
+onDocumentSymbol
+onDocumentHighlight 10:9 word=null
+onDocumentHighlight 12:9 word=null
+onDocumentHighlight 13:9 word=null
+onDocumentHighlight 12:9 word=null
+onDocumentHighlight 11:8 word=null
+onDocumentHighlight 11:7 word="push"
+onDocumentHighlight 11:6 word="push"
+onDocumentHighlight 11:5 word="push"
+onDocumentHighlight 11:4 word="push"
+onDocumentHighlight 11:3 word=null
+onDocumentHighlight 12:3 word=null
+onDocumentHighlight 12:2 word="adb"
+onDocumentHighlight 12:1 word="adb"
+onDocumentHighlight 13:1 word="adb"
+onDocumentHighlight 13:0 word="adb"
+onDocumentHighlight 12:0 word="adb"
+onDocumentHighlight 13:0 word="adb"
+onDocumentSymbol
+onDocumentHighlight 13:0 word="adb"
+onHover 10:26 word="remount,rw,discard"
+onCompletion 12:1 word="e"
+onDocumentHighlight 12:1 word=null
+onCompletionResolve name=e2freefrag type=1
+onCompletionResolve name=echo type=0
+onDocumentHighlight 12:2 word=null
+onCompletionResolve name=echo type=0
+onDocumentHighlight 12:3 word=null
+onDocumentHighlight 12:4 word=null
+onDocumentSymbol
+onHover 10:26 word="remount,rw,discard"
+onDocumentHighlight 12:6 word=null
+onCompletion 12:6 word="_"
+onDocumentHighlight 12:7 word=null
+onDocumentSymbol
+onDocumentHighlight 12:6 word=null
+onDocumentSymbol
+onDocumentSymbol
+onCompletion 12:7 word="-e"
+onDocumentHighlight 12:7 word=null
+onDocumentSymbol
+onDocumentSymbol
+onDocumentHighlight 12:10 word="""
+onHover 10:26 word="remount,rw,discard"
+onDocumentSymbol
+onDocumentHighlight 12:11 word="""
+onDocumentHighlight 12:12 word="""
+onHover 10:26 word="remount,rw,discard"
+onDocumentSymbol
+onHover 10:26 word="remount,rw,discard"
+onDocumentHighlight 12:11 word="""
+onDocumentHighlight 12:10 word="""
+onDocumentSymbol
+onDocumentHighlight 12:10 word="""
+onDocumentHighlight 12:11 word="""
+onDocumentHighlight 12:12 word="""
+onDocumentSymbol
+onDocumentHighlight 12:13 word="""
+onDocumentSymbol
+onDocumentHighlight 12:14 word="""
+onDocumentHighlight 12:15 word="""
+onDocumentHighlight 12:16 word="""
+onHover 10:26 word="remount,rw,discard"
+onDocumentSymbol
+onDocumentHighlight 12:16 word="""
+onDocumentSymbol
+onDocumentSymbol
+onCompletion 12:19 word="$"
+onHover 10:26 word="remount,rw,discard"
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onHover 10:26 word="remount,rw,discard"
+onHover 10:26 word="remount,rw,discard"
+onDocumentHighlight 12:21 word=")"
+onDocumentHighlight 12:22 word=")"
+onDocumentHighlight 12:23 word=")"
+onDocumentHighlight 12:25 word=")"
+onDocumentHighlight 12:26 word=")"
+onDocumentHighlight 12:27 word=")"
+onHover 10:26 word="remount,rw,discard"
+onDocumentHighlight 12:28 word=")"
+onDocumentHighlight 12:29 word=")"
+onDocumentSymbol
+onHover 10:26 word="remount,rw,discard"
+onDocumentHighlight 12:31 word=")"
+onDocumentHighlight 12:32 word=")"
+onDocumentHighlight 12:33 word=")"
+onDocumentSymbol
+onDocumentHighlight 12:34 word=")"
+onDocumentSymbol
+onDocumentHighlight 12:35 word=")"
+onDocumentHighlight 12:36 word=")"
+onDocumentHighlight 12:37 word=")"
+onDocumentSymbol
+onDocumentSymbol
+onHover 10:26 word="remount,rw,discard"
+onDocumentSymbol
+onDocumentHighlight 12:40 word=")"
+onDocumentHighlight 12:41 word=")"
+onDocumentHighlight 12:42 word=")"
+onDocumentHighlight 12:43 word=")"
+onDocumentHighlight 12:44 word=")"
+onDocumentHighlight 12:45 word=")"
+onHover 10:26 word="remount,rw,discard"
+onDocumentSymbol
+onHover 10:26 word="remount,rw,discard"
+onDocumentSymbol
+onHover 10:26 word="remount,rw,discard"
+onDocumentHighlight 12:47 word=")"
+onDocumentSymbol
+onDocumentHighlight 12:48 word=")"
+onDocumentHighlight 12:49 word=")"
+onHover 10:26 word="remount,rw,discard"
+onDocumentSymbol
+onDocumentSymbol
+onCompletion 12:51 word="$"
+onDocumentSymbol
+onDocumentHighlight 12:52 word=")"
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onHover 10:26 word="remount,rw,discard"
+onHover 10:26 word="remount,rw,discard"
+onDocumentHighlight 12:56 word=")"
+onDocumentHighlight 12:57 word=")"
+onDocumentHighlight 12:58 word=")"
+onDocumentSymbol
+onDocumentHighlight 12:61 word=")"
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentHighlight 12:67 word=")"
+onDocumentSymbol
+onDocumentHighlight 12:68 word=")"
+onDocumentSymbol
+onDocumentHighlight 12:68 word=")"
+onDocumentSymbol
+onDocumentSymbol
+onDocumentHighlight 12:68 word=")"
+onDocumentSymbol
+onDocumentHighlight 13:32 word=null
+onDocumentHighlight 14:32 word="/vendor"
+onDocumentHighlight 13:32 word=null
+onDocumentHighlight 13:31 word="1"
+onDocumentHighlight 13:0 word="adb"
+onDocumentSymbol
+onDocumentHighlight 14:0 word="sleep"
+onDocumentHighlight 15:0 word="adb"
+onDocumentHighlight 15:0 word="adb"
+onDocumentHighlight 14:0 word="sleep"
+onDocumentHighlight 13:0 word="adb"
+onDocumentHighlight 12:0 word="echo"
+onDocumentHighlight 11:0 word="adb"
+onDocumentHighlight 10:0 word="adb"
+onDocumentHighlight 9:0 word="adb"
+onDocumentHighlight 8:0 word="echo"
+onDocumentHighlight 6:0 word="wget"
+onDocumentHighlight 4:0 word="echo"
+onDocumentHighlight 2:0 word="PULL_URL"
+onDocumentHighlight 2:0 word="PULL_URL"
+onDocumentHighlight 2:7 word="PULL_URL"
+onDocumentHighlight 2:8 word=null
+onDocumentSymbol
+onHover 10:26 word="remount,rw,discard"
+onDocumentSymbol
+onHover 10:26 word="remount,rw,discard"

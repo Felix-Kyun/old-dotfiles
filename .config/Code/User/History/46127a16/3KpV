@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+
+shell() {
+    echo -ne "${OS_COLOR}Shell:${COLOR_RESET} $(_V=($(zsh --version)); echo ${_V[0]} ${_V[1]})"
+}

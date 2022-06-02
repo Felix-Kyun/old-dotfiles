@@ -1,0 +1,6 @@
+file:///home/felix/Tools/zfetch/modules/example {"mtime":1650812424765,"ctime":1650812384886,"size":76,"etag":"38k8j7cm62e","orphaned":false,"typeId":""}
+#! /usr/bin/env bash
+
+example() {
+    echo -ne "${OS_COLOR}${COLOR_RESET}"
+}

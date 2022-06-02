@@ -1,0 +1,4 @@
+[2022-06-01 09:03:15.552] [sharedprocess] [info] Starting worker process with pid 1816 (type: fileWatcher, window: 1).
+[2022-06-01 09:03:16.850] [sharedprocess] [info] Deleted from disk mads-hartmann.bash-ide-vscode /home/felix/.vscode/extensions/mads-hartmann.bash-ide-vscode-1.13.0
+[2022-06-01 09:03:30.513] [sharedprocess] [info] Worker process with pid 1816 terminated normally (type: fileWatcher, window: 1).
+[2022-06-01 09:03:34.057] [sharedprocess] [info] Starting worker process with pid 1875 (type: fileWatcher, window: 1).

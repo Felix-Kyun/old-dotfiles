@@ -1,0 +1,31 @@
+#! /usr/bin/env bash
+
+#                   ______     ___           __ __
+#                  / ____/__  / (_)  __     / //_/_  ____  ______
+#                 / /_  / _ \/ / / |/_/    / ,< / / / / / / / __ \
+#                / __/ /  __/ / />  <     / /| / /_/ / /_/ / / / /
+#               /_/    \___/_/_/_/|_|____/_/ |_\__, /\__,_/_/ /_/
+#                                  /_____/    /____/
+
+# help and more content here 
+# ...
+
+# vars
+EXT_DIR=./ext
+
+# module checking 
+# ..
+EXT_ENABLED=(
+    "test_module"
+)
+
+for $EXT in $EXT_ENABLED; do
+    if ! [[ -f $EXT_DIR/${EXT} ]]; then 
+        echo MODULE "$EXT" NOT FOUND IN EXTENSION DIRECTORY
+        exit
+    fi
+done
+
+
+# main exec here 
+

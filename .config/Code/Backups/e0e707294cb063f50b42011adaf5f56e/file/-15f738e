@@ -1,0 +1,24 @@
+file:///home/felix/Tools/zclock/bin/ascii-draw {"mtime":1651420580461,"ctime":1651420140851,"size":366,"etag":"38l9932m8bp","orphaned":false,"typeId":""}
+#! /usr/bin/env bash
+
+## Ascii-draw 
+## min utility to draw text in ascii made for zclock
+## similar to figlet 
+
+# vars
+PWD=$(readlink -f "$0")
+DIR=$(dirname "$PWD")
+FONT="blocks"
+
+## load font 
+source $DIR/font/$FONT
+
+for ((x=0; x < ${#1}; x++)); do
+    TEMP=""
+    echo ${1:0:1}
+    case ${1:0:1} in 
+        1)
+            
+            ;;
+    esac
+done

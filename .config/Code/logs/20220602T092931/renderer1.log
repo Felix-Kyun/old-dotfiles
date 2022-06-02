@@ -1,0 +1,21 @@
+[2022-06-02 09:29:34.711] [renderer1] [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+[2022-06-02 10:20:55.162] [renderer1] [error] Error: Unable to move/copy '/home/felix/.config/ncmpcpp/new/config' because target '/home/felix/.config/ncmpcpp/config' already exists at destination.
+    at p.doValidateMoveCopy (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:594:29027)
+    at async p.doCanMoveCopy (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:594:26468)
+    at async i.doMoveOrCopy (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2731:59237)
+    at async fl.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2737:19906)
+    at async d.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2737:25550)
+    at async g._performFileEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2737:27762)
+    at async g.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2737:27266)
+    at async v.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2737:29719)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1719:61041
+[2022-06-02 10:20:55.167] [renderer1] [error] Unable to move/copy '/home/felix/.config/ncmpcpp/new/config' because target '/home/felix/.config/ncmpcpp/config' already exists at destination.: Error: Unable to move/copy '/home/felix/.config/ncmpcpp/new/config' because target '/home/felix/.config/ncmpcpp/config' already exists at destination.
+    at p.doValidateMoveCopy (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:594:29027)
+    at async p.doCanMoveCopy (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:594:26468)
+    at async i.doMoveOrCopy (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2731:59237)
+    at async fl.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2737:19906)
+    at async d.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2737:25550)
+    at async g._performFileEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2737:27762)
+    at async g.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2737:27266)
+    at async v.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2737:29719)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1719:61041

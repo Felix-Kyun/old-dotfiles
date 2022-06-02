@@ -1,0 +1,46 @@
+#! /usr/bin/env bash
+
+
+left() {
+    tput cub $1
+}
+
+right() {
+    tput cuf $1
+}
+
+down() {
+    tput 
+}
+
+render_borders() {
+
+    # corners symbols defined here 
+    TOP = "-"
+
+    # get the dynamic vars like cols and lines
+    COLS=$(tput cols)
+    LINES=$(tput lines)
+    F_COLS=$(( $COLS - 1 ))
+    F_LINES=$(( $LINES - 1))
+
+    tput sc 
+
+    # cycle 1 print top
+    for ((x=0; x <= $COLS; x++ )); do 
+        echo -ne $TOP
+    done
+
+}
+
+
+echo -n hello 
+left 3
+echo -ne wooo
+echo
+
+render_borders 
+
+render_main() {
+    echo "main() here"
+}

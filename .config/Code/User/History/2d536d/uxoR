@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+
+_uptime() {
+    echo -ne "${OS_COLOR}Uptime:${COLOR_RESET} $(uptime -p | sed 's/up//')"
+}

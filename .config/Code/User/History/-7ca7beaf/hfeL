@@ -1,0 +1,35 @@
+#! /usr/bin/env bash
+
+#                   ______     ___           __ __
+#                  / ____/__  / (_)  __     / //_/_  ____  ______
+#                 / /_  / _ \/ / / |/_/    / ,< / / / / / / / __ \
+#                / __/ /  __/ / />  <     / /| / /_/ / /_/ / / / /
+#               /_/    \___/_/_/_/|_|____/_/ |_\__, /\__,_/_/ /_/
+#                                  /_____/    /____/
+
+# test_module for am 
+# main components as of now
+# update 
+# refresh 
+# start
+
+
+main() {
+    case $1 in
+    start)
+    start
+    ;;
+    *)
+        echo "an error occured" 
+    ;;
+    esac
+}
+
+start() {
+    # kill mpd
+    pkill mpd
+    # start it 
+    mpd
+    # start ncmpcpp
+    ncmpcpp
+}

@@ -1,0 +1,37 @@
+#!/bin/bash
+#                   ______     ___           __ __
+#                  / ____/__  / (_)  __     / //_/_  ____  ______
+#                 / /_  / _ \/ / / |/_/    / ,< / / / / / / / __ \
+#                / __/ /  __/ / />  <     / /| / /_/ / /_/ / / / /
+#               /_/    \___/_/_/_/|_|____/_/ |_\__, /\__,_/_/ /_/
+#                                  /_____/    /____/
+#                               FK Utility
+
+# will add func later
+# for now just basic func only 
+
+music() {
+    # Music Func 
+    # Valid args 
+    #   - update 
+    #   - ...
+    case $1 in 
+    
+    update)
+        # update nightcore 
+        ./bin/dl.sh https://youtube.com/playlist\?list\=PL6Q_HmT6GWS539S8V3JcFckLKSrRlwjo1 nightcore
+        # update songs
+        ./bin/dl.sh https://youtube.com/playlist\?list\=PL6Q_HmT6GWS4qCHgN5XCu9dQq1s9WZjUn songs
+        ;;
+    *)
+        echo -e " An Error Occured!!"
+        ;;
+    esac
+}
+
+# Main Program Handling 
+case $1 in
+    music)
+    music $2
+    ;;
+esac

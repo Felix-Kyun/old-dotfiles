@@ -1,0 +1,7 @@
+#! /usr/bin/env bash
+
+debug() {
+    echo -e "DEBUG: [$!1@]"
+}
+
+debug $HELLO

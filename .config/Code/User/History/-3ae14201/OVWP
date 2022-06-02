@@ -1,0 +1,12 @@
+#! /usr/bin/env bash
+
+## Ascii-draw 
+## min utility to draw text in ascii made for zclock
+## similar to figlet 
+
+# vars
+FONT="blocks"
+
+
+## load font 
+source FONT

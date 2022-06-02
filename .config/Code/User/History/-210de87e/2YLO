@@ -1,0 +1,106 @@
+#! /usr/bin/env bash
+
+# alias cursor movement commands to make life easier
+alias left="tput cub"
+alias right="tput cuf" 
+alias down="tput cud"
+alias up="tput cup"
+
+# use tput to define bg and fg
+# 0 - dark/black
+# 1 - red 
+# 2 - green
+# 3 - yellow
+# 4 - blue
+# 5 - pink 
+# 6 - cyan
+# 7 - white
+# add 8 to get alt colors
+
+# COLORS
+BG=0
+FG=6
+# FG_BORDER=$(tput setaf ) #! NOT YET IMPLEMENTED
+
+#STYLE
+BORDER_LEFT="|"
+BORDER_RIGHT="|"
+BORDER_TOP="-"
+BORDER_BOTTOM="_"
+
+#TERMINAL
+COLS=$(tput cols)
+LINES=$(tput lines)
+
+#DIMENSION [ hardcoded for now]
+X=15
+Y=30
+
+#LOG 
+
+v_center() {
+    for ((x=0; x < $(( ($COLS - $X) /2 -1 )); x++)); do
+        echo -n " "
+    done
+}
+set_colors() {
+    tput setaf $FG
+    tput setab $BG 
+}
+reset_colors() {
+    tput sgr0
+}
+
+render_border() {
+
+    tput cup 0 0 
+    tput sc
+
+    tput cud $(( ($LINES - $Y) /2 -1 ))
+
+
+    # cycle 1 [top border ]
+    v_center
+    set_colors
+    echo -ne $BORDER_LEFT
+    for ((x=0; x < $(( $X - 2)); x++)); do
+        echo -ne $BORDER_TOP
+    done
+    echo -ne $BORDER_RIGHT
+    echo 
+    reset_colors
+    # tput cud 1
+
+    # cycle 2 [main body]
+    for (( y=0; y < $(( $Y - 2 )); y++ )); do
+        v_center
+        set_colors
+        echo -ne $BORDER_LEFT
+        for ((x=0; x < $(( $X - 2 )); x++)); do
+            echo -ne " "
+        done
+        echo  $BORDER_RIGHT
+        reset_colors
+    done
+
+    # cycle 3 [bottom border ]
+    v_center
+    set_colors
+    echo -ne $BORDER_LEFT
+    for ((x=0; x < $(( $X -2 )); x++)); do
+        echo -ne $BORDER_BOTTOM
+    done
+    echo -ne $BORDER_RIGHT
+    reset_colors
+
+    tput rc
+    tput sgr0 
+}
+
+render_main() {
+
+}
+
+render_border
+
+sleep 60

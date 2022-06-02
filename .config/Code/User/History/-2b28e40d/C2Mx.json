@@ -1,0 +1,16 @@
+{
+    "workbench.colorTheme": "Nord",
+    "window.menuBarVisibility": "toggle",
+    "editor.fontFamily": " 'FiraCode Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontLigatures": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorStyle": "underline",
+    "explorer.confirmDelete": false,
+    "code-runner.clearPreviousOutput": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.sideBar.location": "right",
+    "window.zoomLevel": -1
+}

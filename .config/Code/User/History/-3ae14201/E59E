@@ -1,0 +1,37 @@
+#! /usr/bin/env bash
+
+## Ascii-draw 
+## min utility to draw text in ascii made for zclock
+## similar to figlet 
+
+# vars
+PWD=$(readlink -f "$0")
+DIR=$(dirname "$PWD")
+FONT="blocks"
+
+## load font 
+source $DIR/font/$FONT
+
+ARG=$1
+ARG_LEN=${#ARG}
+LINE_0=""
+LINE_1=""
+LINE_2=""
+LINE_3=""
+LINE_4=""
+for ((x=0; x < $ARG_LEN; x++)); do
+    TEMP=$x
+    case ${ARG[x]} in
+        "1") 
+            TEMP=one
+            ;;
+    esac
+    for i in $(seq 0 4); do
+        eval "\$LINE_$i" += "${TEMP[x]}"
+    done
+done
+
+# test 
+for i in $(seq 0 4); do
+    eval "\$LINE_$i"
+done

@@ -1,0 +1,55 @@
+#! /usr/bin/env bash
+
+#                   ______     ___           __ __
+#                  / ____/__  / (_)  __     / //_/_  ____  ______
+#                 / /_  / _ \/ / / |/_/    / ,< / / / / / / / __ \
+#                / __/ /  __/ / />  <     / /| / /_/ / /_/ / / / /
+#               /_/    \___/_/_/_/|_|____/_/ |_\__, /\__,_/_/ /_/
+#                                  /_____/    /____/
+
+# help and more content here 
+# ...
+
+# vars
+# BASE_DIR=$(pwd)
+BASE_DIR=$HOME/.am
+EXT_DIR=$BASE_DIR/ext
+BIN_DIR=$BASE_DIR/bin
+source $BIN_DIR/debug
+
+# put extensions here
+EXT_ENABLED=(
+    "test_module"
+    "music"
+    # "idk"
+)
+
+# module checking 
+
+
+# check to make sure the module exists
+for EXT in "${EXT_ENABLED[@]}"; do
+    if ! [[ -f $EXT_DIR/${EXT} ]]; then 
+        echo "$EXT is not availiable in ext directory"
+        exit 1
+    fi
+done
+
+
+# check is supplied one is present
+EXT_PRESENT=0
+for EXT in "${EXT_ENABLED[@]}"; do
+    if [[ $EXT == $1 ]]; then
+        EXT_PRESENT=1
+    fi
+    # echo check: $EXT
+done
+    if [[ $EXT_PRESENT != 1 ]]; then
+    echo "specified ext is either not enabled or not present" 
+    exit 1
+fi
+
+# time to source and run the ext
+# all other things will be handeled in main() of the ext 
+source $EXT_DIR/$1
+main $2 $3 

@@ -1,0 +1,8 @@
+#! /usr/bin/env bash
+
+debug() {
+    echo $1
+}
+
+VAR="HELLO"
+debug $VAR

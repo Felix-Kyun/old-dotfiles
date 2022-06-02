@@ -1,0 +1,10 @@
+#! /usr/bin/env bash
+
+debug() {
+    HELLO="idk"
+    param=$1
+    echo ${!param}
+    echo -e "DEBUG: [$var_name = $HELLO]"
+}
+
+debug 

@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+
+sep() {
+    echo -ne "$(tput setaf 0)------------$(tput setaf 7)"
+}

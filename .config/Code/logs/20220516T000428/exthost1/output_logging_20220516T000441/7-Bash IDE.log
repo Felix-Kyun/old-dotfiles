@@ -1,0 +1,6 @@
+[Info  - 12:04:56 AM] BashLanguageServer initializing...
+Analyzing files matching glob "**/*@(.sh|.inc|.bash|.command)" inside /home/felix/Tools/zui
+Glob resolved with 0 files after 0.034 seconds
+Analyzer finished after 0.034 seconds
+[Info  - 12:04:57 AM] BashLanguageServer initialized
+onDocumentSymbol

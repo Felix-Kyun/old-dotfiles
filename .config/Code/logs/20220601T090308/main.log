@@ -1,0 +1,16 @@
+[2022-06-01 09:03:08.819] [main] [info] window#load: attempt to load window (id: 1)
+[2022-06-01 09:03:08.837] [main] [info] update#setState idle
+[2022-06-01 09:03:08.933] [main] [info] ExtensionHostStarterWorker created
+[2022-06-01 09:03:10.862] [main] [info] window#load: window reported ready (id: 1)
+[2022-06-01 09:03:11.299] [main] [info] Starting extension host with pid 1768 (fork() took 43 ms).
+[2022-06-01 09:03:11.301] [main] [info] ExtensionHostStarterWorker.start() took 46 ms.
+[2022-06-01 09:03:30.488] [main] [info] window#load: attempt to load window (id: 1)
+[2022-06-01 09:03:30.495] [main] [info] Extension host with pid 1768 exited with code: 0, signal: null.
+[2022-06-01 09:03:31.648] [main] [info] window#load: window reported ready (id: 1)
+[2022-06-01 09:03:31.865] [main] [info] Starting extension host with pid 1863 (fork() took 36 ms).
+[2022-06-01 09:03:31.869] [main] [info] ExtensionHostStarterWorker.start() took 43 ms.
+[2022-06-01 09:03:38.838] [main] [info] update#setState checking for updates
+[2022-06-01 09:03:38.853] [main] [info] update#setState available for download
+[2022-06-01 11:42:42.317] [main] [info] Waiting for extension host with pid 1863 to exit.
+[2022-06-01 11:42:42.477] [main] [info] Extension host with pid 1863 exited with code: 0, signal: null.
+[2022-06-01 11:42:42.650] [main] [warning] [storage main] detected slow close() operation: Time: 393ms, DB size: 28672b, Large Keys: workbench.view.extensions.state:1789, __$__targetStorageMarker:1447, memento/workbench.editors.files.textFileEditor:879, terminal.integrated.environmentVariableCollections:537, workbench.view.debug.state:528

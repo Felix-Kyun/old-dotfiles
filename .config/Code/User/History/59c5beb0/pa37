@@ -1,0 +1,51 @@
+#! /usr/bin/env bash
+
+alias left="tput cub"
+alias right="tput cuf" 
+alias down="tput cud"
+alias up="tput cup"
+
+render_border() {
+    # define vert and horz border symbols
+    VERT="|"
+    HORZ_ALT="-"
+    HORZ="-"
+    COLS=$(tput cols)
+    LINES=$(tput lines)
+
+    clear; tput sc 
+
+    #cycle 1 for printing top line
+    echo -n $VERT
+    for ((x=0; x < $(( $COLS - 2 )); x++)); do
+        echo -n $HORZ_ALT 
+    done
+    echo -n $VERT
+
+    #middle cycle
+    for ((y=0; y < $(( $LINES - 2 )); y++ )); do
+        echo -n $VERT
+        for ((x=0; x < $(( $COLS - 2 )); x++)); do
+            echo -n " "
+        done
+        echo -n $VERT
+    done
+
+    #end cycle for printing bottom
+    echo -n $VERT
+    for ((x=0; x < $(( $COLS - 2 )); x++)); do
+        echo -n $HORZ 
+    done
+    echo -n $VERT
+    
+}
+
+render_dummy() {
+    tput cup 0 0 
+    tput cud $((($(tput lines) /2 ) -1 ))
+    MSG="hello"
+    DIFF=${#MSG}
+    tput cuf $(( ($(tput cols) /2 ) - $DIFF ))
+}
+render_border &
+sleep 5

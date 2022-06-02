@@ -1,0 +1,131 @@
+2022-03-31 06:29:17 Loading main app package /usr/lib/obsidian/obsidian.asar
+2022-03-31 06:29:17 Loading main app package /usr/lib/obsidian/obsidian.asar
+2022-03-31 06:29:18 Checking for update using Github
+2022-03-31 06:29:18 Checking for update using Github
+2022-03-31 06:29:19 Success.
+2022-03-31 06:29:19 Latest version is 0.14.2
+2022-03-31 06:29:19 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v0.14.2/obsidian-0.14.2.asar.gz
+2022-03-31 06:29:20 Verifying hash & signature. Size= 12048988
+2022-03-31 06:29:20 Saving file
+2022-03-31 06:29:21 Update complete.
+2022-03-31 06:30:54 Loading updated app package /home/felix/.config/obsidian/obsidian-0.14.2.asar
+2022-03-31 06:30:55 Checking for update using Github
+2022-03-31 06:30:55 Success.
+2022-03-31 06:30:55 Latest version is 0.14.2
+2022-03-31 06:30:55 App is up to date.
+2022-04-04 18:04:26 Loading updated app package /home/felix/.config/obsidian/obsidian-0.14.2.asar
+2022-04-04 18:04:27 Checking for update using Github
+2022-04-04 18:04:27 Success.
+2022-04-04 18:04:27 Latest version is 0.14.2
+2022-04-04 18:04:27 App is up to date.
+2022-04-11 11:52:25 Loading updated app package /home/felix/.config/obsidian/obsidian-0.14.2.asar
+2022-04-11 11:52:25 Checking for update using Github
+2022-04-11 11:52:26 Success.
+2022-04-11 11:52:26 Latest version is 0.14.2
+2022-04-11 11:52:26 App is up to date.
+2022-04-11 11:52:27 Loading updated app package /home/felix/.config/obsidian/obsidian-0.14.2.asar
+2022-04-11 11:52:27 Checking for update using Github
+2022-04-12 18:18:23 Loading updated app package /home/felix/.config/obsidian/obsidian-0.14.2.asar
+2022-04-12 18:18:23 Checking for update using Github
+2022-04-12 18:18:23 Success.
+2022-04-12 18:18:23 Latest version is 0.14.5
+2022-04-12 18:18:23 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v0.14.5/obsidian-0.14.5.asar.gz
+2022-04-12 18:18:24 Verifying hash & signature. Size= 5287918
+2022-04-12 18:18:24 Saving file
+2022-04-12 18:18:25 Update complete.
+2022-04-12 18:21:36 Loading updated app package /home/felix/.config/obsidian/obsidian-0.14.5.asar
+2022-04-12 18:21:36 Checking for update using Github
+2022-04-12 18:21:36 Success.
+2022-04-12 18:21:36 Latest version is 0.14.5
+2022-04-12 18:21:36 App is up to date.
+2022-04-13 16:22:02 Loading updated app package /home/felix/.config/obsidian/obsidian-0.14.5.asar
+2022-04-13 16:22:03 Checking for update using Github
+2022-04-13 16:22:04 Success.
+2022-04-13 16:22:04 Latest version is 0.14.5
+2022-04-13 16:22:04 App is up to date.
+2022-04-13 16:24:00 Loading updated app package /home/felix/.config/obsidian/obsidian-0.14.5.asar
+2022-04-13 16:24:00 Checking for update using Github
+2022-04-13 16:24:01 Success.
+2022-04-13 16:24:01 Latest version is 0.14.5
+2022-04-13 16:24:01 App is up to date.
+2022-04-17 09:51:39 Loading updated app package /home/felix/.config/obsidian/obsidian-0.14.5.asar
+2022-04-17 09:51:39 Checking for update using Github
+2022-04-17 09:51:40 Success.
+2022-04-17 09:51:40 Latest version is 0.14.5
+2022-04-17 09:51:40 App is up to date.
+2022-04-17 10:51:39 Checking for update using Github
+2022-04-17 10:51:39 Success.
+2022-04-17 10:51:39 Latest version is 0.14.5
+2022-04-17 10:51:39 App is up to date.
+2022-04-17 14:14:25 Checking for update using Github
+2022-04-17 14:14:25 Success.
+2022-04-17 14:14:25 Latest version is 0.14.5
+2022-04-17 14:14:25 App is up to date.
+2022-04-17 14:47:46 Loading updated app package /home/felix/.config/obsidian/obsidian-0.14.5.asar
+2022-04-17 14:47:46 Checking for update using Github
+2022-04-17 14:47:47 Success.
+2022-04-17 14:47:47 Latest version is 0.14.5
+2022-04-17 14:47:47 App is up to date.
+2022-04-18 11:41:49 Loading updated app package /home/felix/.config/obsidian/obsidian-0.14.5.asar
+2022-04-18 11:41:50 Checking for update using Github
+2022-04-18 11:41:50 Success.
+2022-04-18 11:41:50 Latest version is 0.14.5
+2022-04-18 11:41:50 App is up to date.
+2022-04-18 12:41:49 Checking for update using Github
+2022-04-18 12:41:50 Success.
+2022-04-18 12:41:50 Latest version is 0.14.5
+2022-04-18 12:41:50 App is up to date.
+2022-04-20 14:51:52 Loading updated app package /home/felix/.config/obsidian/obsidian-0.14.5.asar
+2022-04-20 14:51:53 Checking for update using Github
+2022-04-20 14:51:54 Success.
+2022-04-20 14:51:54 Latest version is 0.14.6
+2022-04-20 14:51:54 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v0.14.6/obsidian-0.14.6.asar.gz
+2022-04-20 14:51:55 Verifying hash & signature. Size= 5291318
+2022-04-20 14:51:55 Saving file
+2022-04-20 14:51:55 Update complete.
+2022-04-20 15:51:52 Checking for update using Github
+2022-04-20 15:51:52 Success.
+2022-04-20 15:51:52 Latest version is 0.14.6
+2022-04-20 15:51:52 An update is already downloaded.
+2022-04-21 14:40:18 Loading updated app package /home/felix/.config/obsidian/obsidian-0.14.6.asar
+2022-04-21 14:40:19 Checking for update using Github
+2022-04-21 14:40:19 Success.
+2022-04-21 14:40:19 Latest version is 0.14.6
+2022-04-21 14:40:19 App is up to date.
+2022-04-23 14:21:23 Loading updated app package /home/felix/.config/obsidian/obsidian-0.14.6.asar
+2022-04-23 14:21:24 Checking for update using Github
+2022-04-23 14:21:24 Loading updated app package /home/felix/.config/obsidian/obsidian-0.14.6.asar
+2022-04-23 14:21:25 Checking for update using Github
+2022-04-23 14:21:25 Success.
+2022-04-23 14:21:25 Latest version is 0.14.6
+2022-04-23 14:21:25 App is up to date.
+2022-04-24 07:56:52 Loading updated app package /home/felix/.config/obsidian/obsidian-0.14.6.asar
+2022-04-24 07:56:53 Checking for update using Github
+2022-04-24 07:56:54 Success.
+2022-04-24 07:56:54 Latest version is 0.14.6
+2022-04-24 07:56:54 App is up to date.
+2022-05-17 13:25:41 Loading main app package /usr/lib/obsidian/obsidian.asar
+2022-05-17 13:25:41 Loading main app package /usr/lib/obsidian/obsidian.asar
+2022-05-17 13:25:41 Checking for update using Github
+2022-05-17 13:25:42 Checking for update using Github
+2022-05-17 13:25:42 Success.
+2022-05-17 13:25:42 Latest version is 0.14.6
+2022-05-17 13:25:42 App is up to date.
+2022-05-25 14:11:59 Loading main app package /usr/lib/obsidian/obsidian.asar
+2022-05-25 14:12:00 Checking for update using Github
+2022-05-25 14:12:00 Success.
+2022-05-25 14:12:00 Latest version is 0.14.6
+2022-05-25 14:12:00 App is up to date.
+2022-05-25 14:14:24 Loading main app package /usr/lib/obsidian/obsidian.asar
+2022-05-25 14:14:24 Checking for update using Github
+2022-05-25 14:14:25 Success.
+2022-05-25 14:14:25 Latest version is 0.14.6
+2022-05-25 14:14:25 App is up to date.
+2022-05-25 15:14:24 Checking for update using Github
+2022-05-25 15:14:24 Success.
+2022-05-25 15:14:24 Latest version is 0.14.6
+2022-05-25 15:14:24 App is up to date.
+2022-05-25 16:14:24 Checking for update using Github
+2022-05-25 16:14:24 Success.
+2022-05-25 16:14:24 Latest version is 0.14.6
+2022-05-25 16:14:24 App is up to date.

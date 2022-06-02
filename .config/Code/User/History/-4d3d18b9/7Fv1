@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+
+packages() {
+    echo -ne "${OS_COLOR}Packages:${COLOR_RESET} $(pacman -Q | wc -l)"
+}
