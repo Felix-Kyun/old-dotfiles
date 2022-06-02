@@ -1,9 +1,9 @@
-sw_volume: 62
+sw_volume: 61
 audio_device_state:1:pulse audio
 audio_device_state:1:ncmpcpp visualizer
-state: pause
-current: 7
-time: 42.504000
+state: play
+current: 36
+time: 120.112000
 random: 0
 repeat: 1
 single: 0
@@ -65,4 +65,7 @@ playlist_begin
 50:nightcore/8D_Nightcore_OUTLAW_Neoni_Lyrics_USE_HEADPHONES.m4a
 51:nightcore/In_Heat_X_BloodPop_.m4a
 52:nightcore/Nightcore-All_My_Friends_Are_Fake_Lyrics_.m4a
+53:songs/Tate_McRae_and_Ali_Gatie-lie_to_me_Lyrics_.m4a
+54:songs/The_Chainsmokers-Sick_Boy_ONEDUO_Remix_.m4a
+55:songs/Sunlike_Brothers_and_LANNE-I_Kissed_A_Girl_ft._Courtney_Drummey_.m4a
 playlist_end
