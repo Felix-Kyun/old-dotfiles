@@ -129,3 +129,20 @@
 2022-05-25 16:14:24 Success.
 2022-05-25 16:14:24 Latest version is 0.14.6
 2022-05-25 16:14:24 App is up to date.
+2022-06-13 07:46:45 Loading main app package /usr/lib/obsidian/obsidian.asar
+2022-06-13 07:46:46 Checking for update using Github
+2022-06-13 07:46:46 Success.
+2022-06-13 07:46:46 Latest version is 0.14.15
+2022-06-13 07:46:46 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v0.14.15/obsidian-0.14.15.asar.gz
+2022-06-13 07:46:48 Verifying hash & signature. Size= 5370314
+2022-06-13 07:46:48 Saving file
+2022-06-13 07:46:48 Update complete.
+2022-06-13 07:50:34 Loading updated app package /home/felix/.config/obsidian/obsidian-0.14.15.asar
+2022-06-13 07:50:34 Checking for update using Github
+2022-06-13 07:50:34 Success.
+2022-06-13 07:50:34 Latest version is 0.14.15
+2022-06-13 07:50:34 App is up to date.
+2022-06-13 08:50:34 Checking for update using Github
+2022-06-13 08:50:34 Success.
+2022-06-13 08:50:34 Latest version is 0.14.15
+2022-06-13 08:50:34 App is up to date.
