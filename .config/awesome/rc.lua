@@ -46,11 +46,12 @@ end
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
 -- beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
-beautiful.init("/home/felix/.config/awesome/theme.lua")
+local theme_name = "xresources"
+beautiful.init("/home/felix/.config/awesome/themes/" .. theme_name .. "/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "urxvt"
-editor = os.getenv("EDITOR") or "nano"
+editor = os.getenv("EDITOR") or "nvim"
 editor_cmd = terminal .. " -e " .. editor
 
 -- Default modkey.
@@ -566,7 +567,7 @@ client.connect_signal("focus", function(c) c.border_color = beautiful.border_foc
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 client.connect_signal("manage", function (c)
     c.shape = function(cr,w,h)
-        gears.shape.rounded_rect(cr,w,h,5)
+        gears.shape.rounded_rect(cr,w,h,6)
     end
 end)
 -- }}}
