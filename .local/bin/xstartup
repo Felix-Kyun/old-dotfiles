@@ -1,0 +1,63 @@
+#! /usr/bin/env bash
+
+sleep 1
+
+# vars 
+XSCT_TEMP=4000
+
+
+
+default() {
+
+# set wallpaper 
+nitrogen --restore 
+
+# start compositor 
+picom --config ~/.config/picom/picom.conf --experimental-backends -b 
+
+# start polybar
+nord
+
+# set night light 
+xsct $XSCT_TEMP
+
+# start kde connect 
+/usr/lib/kdeconnectd & 
+
+# late startup 
+xset led named "Scroll Lock"
+xmodmap -e "keysym Menu = Super_R"
+
+}
+
+
+
+awesome() {
+  NITROGEN=1
+  PICOM=1
+  POLYBAR=1
+  XSCT=1
+  KDE_CONNECT=1
+  K_LED=1
+  MENU_2_SUPER=1
+}
+
+
+
+if [[ $1 == '' ]]; then 
+  exit 1 
+fi
+
+case $1 in 
+  awesome) 
+    awesome
+    ;;
+  i3wm)
+    i3wm
+    ;;
+  *)
+    default
+    ;;
+esac
+
+

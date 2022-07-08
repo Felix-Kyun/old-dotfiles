@@ -1,0 +1,8 @@
+#! /usr/bin/env bash
+
+pkill mpd
+# refresh 
+mpd 
+
+urxvt -e ncmpcpp & disown 
+urxvt -e cava & disown
